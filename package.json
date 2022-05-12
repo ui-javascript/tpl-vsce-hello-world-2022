@@ -32,7 +32,7 @@
   "scripts": {
     "install": "yarn install",
     "vscode:prepublish": "gulp",
-    "publish": "vsce publish --yarn",
+    "vscode:publish": "vsce publish --yarn",
     "pretest": "npm run compile && npm run lint",
     "lint": "eslint src --ext ts",
     "test": "node ./out/test/runTest.js",
